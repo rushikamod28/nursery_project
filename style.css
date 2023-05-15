@@ -1,0 +1,217 @@
+body{
+    margin: 0;
+}
+.name{
+    color: green;
+}
+.name:hover{
+    color:black;
+}
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px; 
+}
+.navb{
+    margin: 0 30px;
+}
+a{
+    text-decoration: none;
+}
+.icons i{
+    background-color:green;
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+}
+.icons i:hover{
+    transform:scale(.8);
+}
+.first-section{
+    background-image: url(https://images.unsplash.com/photo-1483794344563-d27a8d18014e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size:cover;
+    text-align: center;
+    padding: 100px;
+    height: 600px;
+}
+.title{
+    color: green;
+}
+.buynow{
+    color: white;
+    border: 0px;
+    background-color: green;
+    border-radius: 10px;
+    padding: 15px;
+}
+.buynow:hover{
+    transform: scale(.8);
+}
+.con{
+    color: green;
+    display: flex;
+    flex-direction: column;
+}
+.con .about{
+    max-width: 500px;
+}
+.elements:hover{
+    color:darkgreen;
+    padding: 2px;
+}
+.elements{
+    color: black;
+}
+.copy{
+    padding: 10px;
+}
+hr{
+    color: silver;
+}
+.fa-brands{
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 100%;
+}
+.sci .fa-brands:hover{
+    transform:scale(.8);
+}
+.second-section{
+    text-align: center;
+}
+.products img{
+    height:300px;
+    width:100%;
+}
+.products{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.p1 {
+    width:20%;
+}
+.p1:hover{
+    border: 2px solid green;
+    border-spacing: 2px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.second-page{
+    text-align: center;
+    background-color: #F1F0EE; 
+    padding: 15px; 
+}
+.green{
+    color: green;
+}
+.buybutton{
+    color: white;
+}
+.probutton{
+  color: white;
+  border: none;
+  padding: 8px;
+  background-color: rgb(100, 202, 100);
+  border-radius: 20px;
+  width: 90px;
+}
+.probutton:hover{
+    background-color: darkgreen;
+    transform: scale(.8);
+}
+.sub-headline{
+    color: gray;
+}
+.product-bg{
+    position: absolute;
+    top: 152px;
+    left: 580px;
+    height:650px;
+}
+.third-section{
+    height:650px;
+    background-color:#F6F6F8;
+}
+.slogun{
+    width: 390px;
+    position: relative;
+    top:100px;
+    left:46px;
+    padding: 10px;
+}
+.shop{
+    position: relative;
+    top:100px;
+    left:60px;
+    padding: 10px;
+}
+.submit{
+    color: white;
+    border: 1px solid green;
+    border-radius: 8px;
+    background-color: green;
+    padding: 5px;
+}
+.submit:hover{
+    transform:scale(.8);
+}
+.footer-section{
+    width: 100%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 16px;
+    height: max-content;
+    padding-bottom: 30px;
+}
+.form{
+    width: 300px;
+}
+.fourth-section{
+    height:500px;
+    background-color: #D9D2CA;
+    background-image: url(https://images.unsplash.com/photo-1485955900006-10f4d324d411?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80);
+    background-size: cover;
+}
+p{
+    color: black;
+}
+.fifth-section{
+    height:600px;
+    color: #fff;
+    background-image:url(https://images.unsplash.com/photo-1497990571654-77aa8ec36038?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2052&q=80) ;
+    background-size: contain;
+}
+.contact-section{
+    font-size: 20px;
+    font-weight: 300;
+    height: 600px;
+    background-image: url('../img/bgplants7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#box{
+    height:600px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.para{
+
+    text-align: center;
+    width: 55%;
+    color: #fff;
+    position: relative;
+    left: 300px;
+    padding: 80px 0px 0px 0px;
+}
+.link{
+    color: #fff;
+}
+.link:hover{
+    color: blue;
+}
